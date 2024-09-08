@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+            <!-- Main gallery image -->
+            <div id="main-image" aria-live="polite"></div>
+
+            <!-- Thumbnail images -->
+            <div id="thumbnails" aria-label="Thumbnail images"></div>
+        
+            <!-- Navigation buttons -->
+            <div id="controls">
+                <button id="prev-btn" aria-label="Previous Image">Previous</button>
+                <button id="next-btn" aria-label="Next Image">Next</button>
+            </div>
+      </main>
+</body>
+</html>
