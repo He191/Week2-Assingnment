@@ -84,7 +84,11 @@ body {
     img {
       max-width: 100%;
     }
-  
+
+    #controls {
+        width: 100%;
+    }
+
     button {
       width: 100px;
       font-size: 14px;
